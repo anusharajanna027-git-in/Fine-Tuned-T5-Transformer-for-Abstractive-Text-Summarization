@@ -1,0 +1,6 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+__pycache__/
+saved_summary_model/
