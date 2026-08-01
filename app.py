@@ -14,8 +14,11 @@ from fastapi.staticfiles import StaticFiles
 app = FastAPI(title="Text Summarizer App", description="Text Summarizer using T5", version="1.0")
 
 #to load our model and tokenizer
-model = T5ForConditionalGeneration.from_pretrained("./saved_summary_model")
-tokenizer = T5Tokenizer.from_pretrained("./saved_summary_model")
+
+MODEL_ID = "anusharajanna/fine-tuned-t5-summarizer"
+
+model = T5ForConditionalGeneration.from_pretrained(MODEL_ID)
+tokenizer = T5Tokenizer.from_pretrained(MODEL_ID)
 
 #lets specify our device
 if torch.backends.mps.is_available():
