@@ -15,11 +15,12 @@ An end-to-end Natural Language Processing (NLP) application that automatically g
 
 ## 🤗 Fine-Tuned Model
 
-This project uses a fine-tuned **T5 Transformer** model hosted on Hugging Face Hub.
+This project uses a **T5 Transformer model that I fine-tuned on the SAMSum dataset** for abstractive dialogue summarization.
 
-🔗 **Model Repository:**  
+The trained model is hosted on my **Hugging Face Hub** for efficient model storage and deployment, allowing the application to download the fine-tuned weights during startup instead of storing large model files in the GitHub repository.
+
+🔗 **Hugging Face Model:**
 https://huggingface.co/anusharajanna/fine-tuned-t5-summarizer
-
 The application automatically downloads the model from Hugging Face during startup, eliminating the need to store large model files in the GitHub repository.
 
 
