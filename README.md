@@ -5,15 +5,15 @@ An end-to-end Natural Language Processing (NLP) application that automatically g
 
 # Builded a complete AI lifecycle:
 
-- 📊 Prepared and preprocessed the dataset.
-- 🤖 Fine-tuned a Transformer model.
-- 💾 Saved the trained model.
-- ☁️ Published the model on Hugging Face Hub.
-- 🌐 Built a Flask inference application.
-- 🚀 Deployed the application on Render.
-- 📦 Used Git LFS and proper repository management for large model files.
+- Prepared and preprocessed the dataset.
+- Fine-tuned a Transformer model.
+- Saved the trained model.
+- Published the model on Hugging Face Hub.
+- Built a Flask inference application.
+- Deployed the application on Render.
+- Used Git LFS and proper repository management for large model files.
 
-## 🤗 Fine-Tuned Model
+## Fine-Tuned Model
 
 This project uses a **T5 Transformer model that I fine-tuned on the SAMSum dataset** for abstractive dialogue summarization.
 
@@ -26,30 +26,30 @@ The application automatically downloads the model from Hugging Face during start
 
 # 🚀 Project Highlights
 
-- ✅ Fine-tuned the T5 Transformer model for abstractive text summarization using the SAMSum dataset.
-- ✅ Preprocessed and tokenized conversational text to prepare high-quality training data.
-- ✅ Trained and evaluated the model using the Hugging Face Transformers library and PyTorch.
-- ✅ Saved the trained model and tokenizer using the save_pretrained() API for reproducible inference.
-- ✅ Hosted the fine-tuned model on Hugging Face Hub to separate model storage from application code.
-- ✅ Developed a Flask-based web application with a clean user interface for real-time text summarization.
-- ✅ Configured the application to automatically download the model from Hugging Face during startup, eliminating the need to store large model files in the GitHub repository.
-- ✅ Deployed the application on Render with a production-style architecture using GitHub for source code and Hugging Face for model hosting.
-- ✅ Optimized the project structure using Git LFS, .gitignore, and model hosting best practices to keep the repository lightweight and deployment-friendly.
+- Fine-tuned the T5 Transformer model for abstractive text summarization using the SAMSum dataset.
+- Preprocessed and tokenized conversational text to prepare high-quality training data.
+- Trained and evaluated the model using the Hugging Face Transformers library and PyTorch.
+- Saved the trained model and tokenizer using the save_pretrained() API for reproducible inference.
+- Hosted the fine-tuned model on Hugging Face Hub to separate model storage from application code.
+- Developed a Flask-based web application with a clean user interface for real-time text summarization.
+- Configured the application to automatically download the model from Hugging Face during startup, eliminating the need to store large model files in the GitHub repository.
+- Deployed the application on Render with a production-style architecture using GitHub for source code and Hugging Face for model hosting.
+- Optimized the project structure using Git LFS, .gitignore, and model hosting best practices to keep the repository lightweight and deployment-friendly.
 ---
 
 
-# ✨ Features
+# Features
 
-- 📄 Generate concise summaries from lengthy text.
-- 🤖 Uses a custom fine-tuned Transformer model instead of relying on third-party hosted summarization APIs.
-- ⚡ Fast inference using FastAPI.
-- 🎯 High-quality abstractive summarization.
-- 💻 Responsive web interface.
-- 🔄 Real-time summarization.
+- Generate concise summaries from lengthy text.
+- Uses a custom fine-tuned Transformer model instead of relying on third-party hosted summarization APIs.
+- Fast inference using FastAPI.
+- High-quality abstractive summarization.
+- Responsive web interface.
+- Real-time summarization.
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
 Dataset (SAMSum)
@@ -84,7 +84,7 @@ HTML | CSS | JavaScript UI
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 ## Machine Learning
 
@@ -107,7 +107,7 @@ HTML | CSS | JavaScript UI
 
 - SAMSum Dialogue Summarization Dataset
 
-# 📂 Project Workflow
+# Project Workflow
 
 ## 1. Data Collection
 
@@ -134,7 +134,7 @@ HTML | CSS | JavaScript UI
 
 ---
 
-# 🌐 API Endpoints
+# API Endpoints
 
 ## Home
 GET /
